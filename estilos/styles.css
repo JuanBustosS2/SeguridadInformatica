@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;  
+  border: 0;
+}
+
+@font-face {
+  font-family: 'angsana_newregular';
+  src: url('fuentes/angsa-webfont.woff2') format('woff2'),
+       url('fuentes/angsa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background: #005883;
+  font-family: 'angsana_newregular';
+  margin: 0 auto;
+}
+
+header {
+  background: #005883;
+  padding: 1% 0% 0% 1%;
+}
+
+header #logo img {
+  float: left;  
+  width: 23%;  
+  background: #005883;
+  padding: 1% 1% 1% 1%;  
+}
+
+section #logoSeguridad img {
+  width: 50%; 
+  margin: 0px auto;
+  display: block;
+}
+
+section #logoautores img {
+  width: 30%; 
+  margin: 0px auto;
+  display: block;
+  background: #f0b429;
+  padding: 1% 1% 1% 1%;
+  border-radius: 15px;
+}
+
+section #logoInicio img {
+  width: 60%;  
+  margin: 0px auto;
+  display: block;
+}
+
+section #objetivos img {
+  width: 30%;  
+  margin: 0px auto;
+  display: block;
+}
+
+section #introduccion img {
+  width: 70%; 
+  margin: 0px auto;
+  display: block;
+}
+
+section #clave img {
+  width: 20%;  
+  margin: 0px auto;
+  display: block;
+}
+
+section #pasos img {
+  width: 25%;  
+  margin: 0px auto;
+  display: block;
+}
+
+section #leyes img {
+  width: 25%; 
+  margin: 0px auto;
+  display: block;
+}
+
+section #Multimedia img {
+  width: 50%; 
+  margin: 0px auto;
+  display: block;
+}
+
+header div h2 {
+  font-size: 270%;
+  color: white;
+  font-family: 'angsana_newregular';
+}
+
+header div h1 {
+  font-size: 200%;
+  color: white;
+  font-family: 'angsana_newregular';
+}
+
+#div-titulo {
+  padding: 7% 0% 7% 0%;
+  float: left;
+}
+
+.Lectura {
+  width: 70%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 15px 15px 50px 15px;
+  font-size: 130%;
+}
+
+.introduccion {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;
+}
+
+.conceptos {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;
+}
+
+.recomendaciones {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;
+}
+
+.recomendaciones h3 {
+  color: #f0b429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+.estandares {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;
+}
+
+.estandares h3 {
+  color: #f0b429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+.impacto {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;
+}
+
+.Multimedia {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 3% 1%;
+  font-size: 140%;
+}
+
+.autores {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 105%;
+}
+
+.autores h3 {
+  font-size: 250%;
+  margin: 0 auto;
+}
+
+.impacto h3 {
+  color: #f0b429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+.twiter {
+  width: 22%;
+  float: right;
+  padding: 2% 1% 1% 1%;
+  background: #f0b429;
+  border-radius: 15px;
+  margin: 17px 15px 0px 0px;
+}
+
+.contador {
+  float: right;
+  background: #f0b429;
+  margin: 3% 7% 1% 1%;
+}
+
+footer {
+  background: #f0b429;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: #005883;
+  opacity: 0.8;
+}
+
+#footerP {
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 105%;
+  margin: 0.5% 1% 0% 1%;
+}
+
+section p {
+  font-size: 120%;
+  font-family: 'Franklin Gothic book';
+  color: #34495e;
+}
+
+section h3 {
+  font-size: 130%;
+  font-family: 'angsana_newregular';
+  font-weight: 1000;
+  color: #f0b429;
+  text-align: center;
+  margin: 1% 0% 3% 0%;
+}
+
+section h4 {
+  font-size: 150%;
+  font-family: 'angsana_newregular';
+  font-weight: 1000;
+  color: #005883;
+  text-align: center;
+}
+
+section h5 {
+  font-size: 180%;
+  font-family: 'angsana_newregular';
+  font-weight: 1000;
+  color: #005883;
+  text-align: center;
+  margin: 1% 0% 2% 0%;
+}
+
+.navegacion li a {
+  background-color: #f0b429;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.navegacion {
+  float: right;
+}
+
+.navegacion li a:hover {
+  background-color: #005883;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.navegacion li ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li {
+  display: inline-block; /* navecion en linea*/
+}
+
+.navegacion li:hover > ul {
+  display: block;
+}
+
+nav {
+  float: right;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 550;
+  padding: 0% 0% 0% 0%;
+  margin: 1% 1% 0% 0%;  
+}
+
+nav ul li ul li {
+  display: block;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+th,
+td {
+  padding: 10px;
+  font-family: 'angsana_newregular';
+}
+thead {
+  background: #f0b429;
+  border-bottom: solid 5px #55efc4;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f6e58d;
+}
+
+tr:hover td {
+  background-color: #74b9ff;
+}
+
+.youtobe1 {
+  margin: 0px auto;
+  display: block;
+  margin: 3% 1% 4% 1%;
+  text-align: center;
+  font-size: 70%;
+}
+
+.educaplay {
+  display: block;
+  text-align: center;
+  font-size: 70%;
+  
+}
+
+#citar {
+  margin: 0px auto;
+  display: block;
+  margin: 0% 0% 0% 0%;
+  text-align: center;
+  font-size: 55%;
+}
+
+#visita{
+  text-align: center;
+  font-family: 'angsana_newregular';
+  color: #005883;
+  font-size: 140%;
+  
+}
